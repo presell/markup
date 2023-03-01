@@ -207,8 +207,44 @@ function PlasmicBodyArticle1__RenderFunc(props: {
             dangerouslySetInnerHTML={{
               __html: (() => {
                 try {
-                  return $ctx.fetchDyanamicData.records[0].fields
-                    .heroSubHeadline;
+                  // console.log("*** Line 577  ***"+$ctx.fetchDyanamicData.records[0].fields
+                  // .heroSubHeadline);
+                  var ParaSbText = $ctx.fetchDyanamicData.records[0].fields.heroSubHeadline;
+                  var html = urlScheck(ParaSbText); 
+               
+                  function urlScheck(text) {
+                    var regex = /\[([^\][]*)]/g;
+                    var results = [], m;
+                    while (m = regex.exec(text)) {
+                      results.push(m[1]);         
+                    }
+                      const replaceData = results;
+
+                      var arrayLength = replaceData.length;
+                      var  asas= 0;
+                      for (var i=0; i <= arrayLength; i++) {
+                      
+                     var urlRegSB = /(https?:\/\/[^\s]+)/g;
+                     return text.replace(+ replaceData + '').replace(urlRegSB, function (url) {
+                     var laststringremove = url.replaceAll(")", "")
+                       
+                    
+                      var onlyurl =  '<a href="' + laststringremove + '" style="color:#4896fa;text-decoration: underline #4896FA 1px;">' + replaceData[asas] + '</a>';
+                      asas ++ ;
+                     
+                      return onlyurl;
+                    })
+                  }
+                }
+               
+const cleanedParagraph = html.replace(/\[(.*?.)\]/g, '');
+    
+const cleanedParagraph21  = cleanedParagraph.replace('(', '<span>').replace('(', '</span>');
+console.log(cleanedParagraph21)
+const cleanedParagraphhh  = cleanedParagraph21.replace('(', '<span>').replace('(', '</span>');
+return cleanedParagraphhh;
+
+
                 } catch (e) {
                   if (e instanceof TypeError) {
                     return "Enter some text";
