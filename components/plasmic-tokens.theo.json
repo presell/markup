@@ -1,0 +1,169 @@
+{
+  "props": [
+    {
+      "name": "#1F7926",
+      "type": "color",
+      "value": "#1F7926",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "3RrNQhIAOjUAZi"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken",
+      "type": "spacing",
+      "value": "1px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "iCnj-acOh7pHKW"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 10",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "WntMXElZmp5VVX"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 11",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "ZHbrCyKADtRgNU"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 12",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "Ob4mUO164thwd1"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 13",
+      "type": "color",
+      "value": "#FF7613",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "EhaxDUSsLsEyg2"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 15",
+      "type": "color",
+      "value": "#1F7926",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "wuo7SWTD6T88a8"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 2",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "UN88BXKpv9vHKR"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 3",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "Vm0iWsSc1mqx35"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 4",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "VJJFR01lVjCaxE"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 5",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "mjzxVOPhPdWX4X"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 6",
+      "type": "color",
+      "value": "#535353",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "SzBIRHV_3TMyH1"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 7",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "McgTJFpnS2tLsn"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 8",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "TRcRCcgIIsWU8_"
+      }
+    },
+    {
+      "name": "UnnamedStyleToken 9",
+      "type": "color",
+      "value": "#35B0D1",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "ON1hmQJqrvMseZ"
+      }
+    },
+    {
+      "name": "background-color-#1F7926",
+      "type": "color",
+      "value": "#1F7926",
+      "category": "color",
+      "meta": {
+        "projectId": "eDreYSBqUCxfxxx8v4DS41",
+        "id": "bpR8VTLuwpye6n"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}
