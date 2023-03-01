@@ -282,6 +282,7 @@ return cleanedParagraphhh;
             hasVariant(globalVariants, "screen", "mobileOnly")
               ? ("auto" as const)
               : ("auto" as const)
+              
           }
           displayMaxHeight={
             hasVariant(globalVariants, "screen", "mobileOnly")
