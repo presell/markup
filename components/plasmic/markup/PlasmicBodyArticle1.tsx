@@ -236,13 +236,30 @@ function PlasmicBodyArticle1__RenderFunc(props: {
                     })
                   }
                 }
-               
-const cleanedParagraph = html.replace(/\[(.*?.)\]/g, '');
-    
+               //Bracket Replace with blank
+const cleanedParagraph = html.replace(/\[(.*?.)\]/g, ''); 
 const cleanedParagraph21  = cleanedParagraph.replace('(', '<span>').replace('(', '</span>');
 console.log(cleanedParagraph21)
 const cleanedParagraphhh  = cleanedParagraph21.replace('(', '<span>').replace('(', '</span>');
-return cleanedParagraphhh;
+
+               //** Replace with blank and Set Bold
+const regex = /\*\*([\w\s]+)\*\*/g; // define the regular expression pattern
+const boldedText = cleanedParagraphhh.replace(regex, '<strong>$1</strong>');
+console.log(boldedText);
+
+              // undersore replace with italic
+const Italic = boldedText.replace(/_([^_]+)_/g, "<i>$1</i>");
+console.log(Italic);
+
+              // ~~ replace with strikethrough
+const strikethrough = Italic.replace(/~~([^~]+)~~/g, "<s style='text-decoration: line-through;'>$1</s>");
+console.log(strikethrough);
+
+             // `` replace with code
+const code21 = strikethrough.replace(/`([^`]+)`/g, "<code style='background-color: #f1f1f1;padding: 2px;'>$1</code>");
+console.log(code21);
+
+return code21;
 
 
                 } catch (e) {
