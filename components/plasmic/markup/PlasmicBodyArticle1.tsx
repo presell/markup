@@ -274,7 +274,8 @@ return cleanedParagraphhh;
       >
         <p.PlasmicImg
           data-plasmic-name={"heroImage"}
-          data-plasmic-override={overrides.heroImage}
+         
+          data-plasmic-override={overrides.heroImage} 
           alt={""}
           className={classNames(sty.heroImage)}
           displayHeight={
